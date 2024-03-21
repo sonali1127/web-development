@@ -1,4 +1,15 @@
 body{
-    color :white;
-    background-color: rgb(99,70,75);
+    text-align:left;
+    margin:auto;
+    color :rgb(230, 241, 243);
+    background-color: rgb(101, 86, 160);
+}
+a{
+    color: rgb(16, 175, 122);
+}
+a:visited{
+    color:rgb(83, 153, 130)
+}
+a:hover{
+    color:pink
 }
