@@ -1,0 +1,17 @@
+body{
+    text-align:left;
+    margin:auto;
+    color :rgb(230, 241, 243);
+    background-color: rgba(86, 77, 167, 0.925);
+}
+a{
+    color: rgb(16, 175, 122);
+    font-size:larger;
+    padding-bottom: 100px;
+}
+a:visited{
+    color:rgb(83, 153, 130)
+}
+a:hover{
+    color:pink
+}
