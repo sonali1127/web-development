@@ -1,71 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
-            font-family:sans-serif,Arial, Helvetica;
+            font-family: sans-serif, Arial, Helvetica;
         }
+
         .container {
             border: 7px solid lightgrey;
             height: 605px;
             width: 401px;
-            padding:5px;
+            padding: 5px;
             margin: auto;
             border-radius: 30px;
-             }
-        img{
-            border-radius:20px;
-        }
-        ul li{
-            list-style: none;
-            display:inline-block;
-            padding:5px;
-            margin:10px;
-            border:2px solid rgb(148, 144, 144);
-            border-radius:20px;
         }
 
-p{
-    line-height: 1.5;
-    font-family:sans-serif,Arial, Helvetica;
-    font-size: medium;
-}
-button{
-    border: 1px solid #d3f3f7;
-    border-radius: 14px;
-    padding: 10px 25px;
-    margin: 10px;
-    color: #2196f3;
-    background-color: #d3f3f7;
-    font-weight: bold;
-}
-.box3{
-    text-align: center;
-}
+        .box img {
+            border-radius: 20px;
+        }
+
+        .box ul li {
+            list-style: none;
+            display: inline-block;
+            padding: 5px;
+            margin: 10px;
+            border: 2px solid rgb(148, 144, 144);
+            border-radius: 20px;
+        }
+
+        .box2 p {
+            line-height: 1.5;
+            font-family: sans-serif, Arial, Helvetica;
+            font-size: medium;
+        }
+
+        .box3 {
+            text-align: center;
+        }
+
+        .box3 button {
+            border: 1px solid #d3f3f7;
+            border-radius: 14px;
+            padding: 10px 25px;
+            margin: 10px;
+            color: #2196f3;
+            background-color: #d3f3f7;
+            font-weight: bold;
+
+        }
+
+        .box3 button:hover {
+            color: darkblue;
+            background-color: white;
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
-     <div class="box">
-        <img height="300px" width="400px" src="promocode.webp" alt="promocode">
-        <ul>
-            <li>Discount</li>
-            <li>SAVE30</li>
-        </ul>
-     </div>
-     <div class="box2">
-        <h1>Exclusive Limited Time Offer!</h1>
-        <p>Special Discount Just for You! Get 30% OFF on all products! Hurry, offer valid until the end of this month.Use Code: SAVE30 at checkout.Offer valid on a minimum purchase of $50. Cannot be combined with other coupons.</p>
-        <div class="box3">
-            <button>Read More</button>
+        <div class="box">
+            <img height="300px" width="400px" src="promocode.webp" alt="promocode">
+            <ul>
+                <li>Discount</li>
+                <li>SAVE30</li>
+            </ul>
         </div>
-     </div>
+        <div class="box2">
+            <h1>Exclusive Limited Time Offer!</h1>
+            <p>Special Discount Just for You! Get 30% OFF on all products! Hurry, offer valid until the end of this
+                month.Use Code: SAVE30 at checkout.Offer valid on a minimum purchase of $50. Cannot be combined with
+                other coupons.</p>
+            <div class="box3">
+                <button>Read More</button>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
