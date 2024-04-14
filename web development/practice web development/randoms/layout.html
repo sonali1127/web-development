@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .parent {
+            height: 2000px;
+            width: 800px;
+            margin: auto;
+            padding:0px;
+            border: 2px solid black;
+            box-sizing:border-box;
+            background-color: black;
+        }
+
+        .nav {
+            position: sticky;
+            top: 0; 
+            height: 100px;
+            width: 100%;
+            border: 2px solid hotpink;
+            padding: 0px;
+            margin: 0px;
+            background-color: pink;
+            box-sizing: border-box;
+        }
+        
+        .box{
+            margin:26px;
+            height:800px;
+            width:730px;
+            border:2px solid green;
+            overflow:auto;
+            display:flex;
+            background-color: green;
+        }
+        .box1{
+            margin: 25px;
+            height: 54vw;
+            width: 350px;
+            border: 2px solid white;
+            box-sizing: border-box;
+            background-color: lightcoral;
+        }
+        .material{
+            color: red;
+            display: flex;
+            flex-direction: row-reverse;
+            font-size: 52px;
+        }
+        .box2{
+            background-color:darkblue;
+        }
+        .text{
+            height: 186px;
+            width: 680px;
+            margin: 30px;
+            padding: 30px;
+            border: 2px solid grey;
+            border-radius: 69px;
+            color:white;
+            font-size:45px;
+        }
+        .fixed{
+            bottom:0;
+            position: fixed;
+            height: 100px;
+            width: 796px;
+            border: 2px solid grey;
+            padding: 0px;
+            margin: 0px;
+            background-color:darkgray;
+            box-sizing: border-box;
+            text-align: center;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="nav"></div>
+        <div class="box">
+            <div class="box1"></div>
+            <div class="box1 box2"></div>    
+        </div>
+        <i  class="material-icons material">favorite</i>
+        <div class="text">
+            This page shows layout of the webpage
+        </div>
+        <div class="fixed"></div>
+    </div>
+</body>
+
+</html>
