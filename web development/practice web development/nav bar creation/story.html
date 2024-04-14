@@ -17,7 +17,7 @@
             --navcolor: rgb(10, 9, 9);
             --borderstyle: 2px solid var(--navcolor);
             --borderradius: 7px;
-            --fontweight:bold;
+            --fontweight: bold;
         }
 
         * {
@@ -35,40 +35,47 @@
             display: flex;
         }
 
-         a:link{
+        a:link {
             text-decoration: none;
-            color:#84c7c1;
+            color: #84c7c1;
         }
-        a:visited{
+
+        a:visited {
             text-decoration: none;
-            color:#00ffd0;
-            background-color:pink;
+            color: #00ffd0;
+            background-color: pink;
         }
-        li:hover,a:hover{
+
+        li:hover,
+        a:hover {
             text-decoration: none;
-            color:#0b090c;
-            background-color:white;
+            color: #0b090c;
+            background-color: white;
         }
-        a:active{
+
+        a:active {
             text-decoration: none;
-            color:#00ffd0;
+            color: #00ffd0;
         }
-        li:first-child::first-letter{
-            font-size:46px;
-            color:rgb(215, 209, 224);
+
+        li:first-child::first-letter {
+            font-size: 46px;
+            color: rgb(215, 209, 224);
         }
-        .y:hover{
-            font-size:26px;
-            color:black;
-            text-shadow:0 0 10px rgb(0, 0, 0);
+
+        .y:hover {
+            font-size: 26px;
+            color: black;
+            text-shadow: 0 0 10px rgb(0, 0, 0);
         }
+
         ul li {
             list-style-type: none;
             padding: 20px;
             border: var(--borderstyle);
             font-size: 27px;
         }
-    
+
 
         .nav {
             top: 0;
@@ -81,12 +88,13 @@
             overflow: auto;
             box-sizing: border-box;
             background-color: var(--navcolor);
-            font-weight:var(--fontweight);
+            font-weight: var(--fontweight);
         }
-        li:first-child{
+
+        li:first-child {
             font-size: 25px;
             text-shadow: 0 0 30px rgb(200, 252, 178);
-            
+
         }
 
         input[type="text"] {
@@ -101,7 +109,10 @@
 
         h1 {
             text-align: center;
-            font-size: 80px;
+            font-size: 75px;
+            background: #01111e;
+            color: rgb(204, 197, 230);
+            text-shadow: 0 0 35px whitesmoke;
         }
 
         .story {
@@ -115,7 +126,7 @@
             color: rgb(255 125 14);
             letter-spacing: 1.5px;
             font-size: larger;
-            font-weight: var(--fontweight,bold);
+            font-weight: var(--fontweight, bold);
         }
     </style>
 </head>
@@ -125,13 +136,25 @@
         <div class="nav">
             <nav>
                 <ul>
-                    <li><a  class="y" href="#">ReadRealm</a></li>
-                    <li><a href="http://127.0.0.1:3002/practice%20web%20development/nav%20bar%20creation/story.html">Genres</a></li>
-                    <li><a href="http://127.0.0.1:3002/practice%20web%20development/nav%20bar%20creation/story.html">Booklist</a></li>
-                    <li><a href="http://127.0.0.1:3002/practice%20web%20development/nav%20bar%20creation/story.html">Contribute</a></li>
-                    <li><a href="http://127.0.0.1:3002/practice%20web%20development/nav%20bar%20creation/story.html">BookCover</a></li>
-                    <li><a href="http://127.0.0.1:3002/practice%20web%20development/nav%20bar%20creation/story.html">Games</a></li>
-                    <li><a href="http://127.0.0.1:3002/practice%20web%20development/nav%20bar%20creation/story.html">LogIn/SignIn</a></li>
+                    <li><a class="y" href="#">ReadRealm</a></li>
+                    <li><a
+                            href="http://127.0.0.1:3002/practice%20web%20development/nav%20bar%20creation/story.html">Genres</a>
+                    </li>
+                    <li><a
+                            href="http://127.0.0.1:3002/practice%20web%20development/nav%20bar%20creation/story.html">Booklist</a>
+                    </li>
+                    <li><a
+                            href="http://127.0.0.1:3002/practice%20web%20development/nav%20bar%20creation/story.html">Contribute</a>
+                    </li>
+                    <li><a
+                            href="http://127.0.0.1:3002/practice%20web%20development/nav%20bar%20creation/story.html">BookCover</a>
+                    </li>
+                    <li><a
+                            href="http://127.0.0.1:3002/practice%20web%20development/nav%20bar%20creation/story.html">Games</a>
+                    </li>
+                    <li><a
+                            href="http://127.0.0.1:3002/practice%20web%20development/nav%20bar%20creation/story.html">LogIn/SignIn</a>
+                    </li>
                     <li class="x"><input type="text" placeholder="   Search novels here"></li>
                 </ul>
             </nav>
